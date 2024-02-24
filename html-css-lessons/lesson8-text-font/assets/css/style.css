@@ -1,0 +1,58 @@
+/* h1{
+    color: red;
+    font-size: 150px;
+
+}
+p{
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+     font-weight: 1000; 
+     font-style: italic;
+    letter-spacing: 30px;
+    word-spacing: 40px;
+    line-height: 130px;
+    color: white;
+    background-color: black;
+
+} */
+
+
+/* psedo class */
+/* li:nth-child(4n-4){
+    color: red;
+} */
+
+/* psedo element */
+/* p::first-letter{
+    color: red;
+} */
+
+
+/* html{
+    font-size: 20px;
+}
+div{
+    font-size: 30px;
+}
+p{
+    hex-> 0123456789abcdef
+    color: #f00000;
+    min 0 max 255
+    color: rgb(44, 133, 100);
+    color: rgba(44, 133, 100,0.2);
+    color: hwb(152 38% 31% / 0.553);
+    color: #000;
+    font-size: 1rem;
+} */
+
+/* span{
+    color: red;
+    font-size: 120px;
+} */
+
+
+
+
+li:nth-child(7){
+color: red;
+}
