@@ -1,0 +1,28 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(65, 65, 65);
+    height: 70px;
+}
+
+header nav ul li a{
+    color: #fff;
+}
+
+header .logo {
+    padding-left: 10%;
+    width: 30%;
+    float: left;
+}
+header nav ul{
+    padding: 30px;
+}
+header nav ul li{
+    float: left;
+    margin-left: 30px;
+}
