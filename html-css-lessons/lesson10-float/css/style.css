@@ -1,0 +1,15 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 20px 50px 100px 10px;
+}
+
+
+/* img{
+    float: left;
+}
+
+.my-text{
+    clear: both;
+} */
