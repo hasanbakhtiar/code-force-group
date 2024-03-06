@@ -1,0 +1,51 @@
+@import url('./normalize.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .box{ */
+  /* width: 100px; */
+  /* height: 100px; */
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 36%, rgba(5,82,188,1) 68%, rgba(0,212,255,1) 100%); */
+  /* transform: translateX(-50px); */
+  /* transform: translateY(150px); */
+  /* transform: translate(200px,100px); */
+  /* transform: rotate(40deg); */
+  /* transform: scale(2,3); */
+  /* transform: skew(30deg,40deg); */
+  /* matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
+  /* transform: matrix(1, -0.3, 0, 1, 100, 200); */
+
+/* } */
+
+
+
+/* .box{
+  width: 100px;
+  height: 100px;
+  background-color: red; */
+  /* transition-property: background-color,transform;
+  transition-duration:2s;
+  transition-delay: 2s; */
+  /* transition: background-color 10s, transform 5s; */
+  /* transition: 1000ms;
+} */
+/* 
+.box:hover{
+  background-color: green;
+  transform: scale(2);
+} */
+
+/* i{
+  color: red;
+  font-size: 40px;
+  transition: 1s;
+}
+i:hover{
+  color: orange;
+  font-size: 50px;
+} */
