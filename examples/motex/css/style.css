@@ -1,0 +1,197 @@
+@import url("./reset.css");
+
+.motex-con-out {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.motex-con-in {
+  width: 80%;
+}
+/* Container end */
+
+header {
+  width: 100%;
+  height: auto;
+}
+
+header .top {
+  background-color: black;
+  padding: 20px 0;
+}
+header .top span {
+  color: #fff;
+}
+
+header .top .motex-con-in {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+header .top .right a{
+    color: #fff;
+}
+
+
+header .bottom{
+    padding: 20px 0;
+    background-color: #fff;
+
+}
+
+header .bottom .motex-con-in{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .bottom .motex-con-in .logo{
+    width: 20%;
+}
+header .bottom .motex-con-in .logo img{
+    width: 100%;
+}
+header .bottom .motex-con-in menu {
+    width: 50%;
+}
+header .bottom .motex-con-in menu ul{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+header .bottom .motex-con-in menu ul li a{
+    font-size: 18px;
+    color: #000;
+    font-weight: bolder;
+}
+
+header .bottom .motex-con-in .right button{
+    background-color: red;
+    border: none;
+    padding: 18px 38px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px
+}
+
+
+/* header end */
+
+
+.hero{
+    position: relative;
+}
+.hero .hero-top{
+    background-image: url('https://live.themewild.com/motex/assets/img/slider/slider-3.jpg');
+    height: 80vh;
+}
+
+.hero .hero-top .hero-top-bg-clr{
+    background-color: rgba(0,0,0,.7);
+    height: 80vh;
+}
+
+.hero .hero-top .left-text, .hero .hero-top .right-img{
+    width: 50%;
+}
+
+/* .hero .hero-top .right-img img{
+    width: 100%;
+} */
+.hero .hero-top .hero-top-bg-clr{
+    display: flex;align-items: center;
+}
+.hero .hero-top .hero-top-bg-clr .motex-con-in{
+    display: flex;
+    align-items: center;
+}
+
+.hero .hero-top .hero-top-bg-clr .left-text{
+        padding-right:  50px;
+}
+
+
+
+.hero .hero-top .hero-top-bg-clr .left-text p:nth-child(1){
+    color: red;
+    font-size: 23px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}   
+.hero .hero-top .hero-top-bg-clr .left-text p:nth-child(3){
+    margin-bottom: 20px;
+    color: #fff;
+}
+.hero .hero-top .hero-top-bg-clr .left-text h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+
+.hero .hero-top .hero-top-bg-clr .left-text .btn-con button:nth-child(1){
+    border: none;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: red;
+}
+
+.hero .hero-top .hero-top-bg-clr .left-text .btn-con button:nth-child(2){
+    border: none;
+    color: red;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #fff;
+    margin-left: 20px;
+}
+.hero-bottom{
+    position: absolute;
+    width: 100%;
+    bottom: -270px;
+}
+
+.hero-bottom .select-con{
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.hero-bottom .select-con h1{
+
+    font-size: 30px;
+    font-weight: bolder;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    padding-bottom: 20px;
+}
+.hero-bottom .select-con .bottom-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hero-bottom .select-con .bottom-con .card{
+    width: 23%;
+}
+
+.hero-bottom .select-con .bottom-con .card p{
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero-bottom .select-con .bottom-con .card select{
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 100%;
+
+}
