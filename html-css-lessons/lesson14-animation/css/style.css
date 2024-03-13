@@ -1,0 +1,72 @@
+@import url('normalize.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+.box{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: infoanime;
+  /* animation-duration: 5s; */
+  /* animation-iteration-count: infinite; */
+  /* animation-delay: 3s; */
+  /* animation: infoanime 510ms infinite; */
+}
+
+@keyframes infoanime {
+  /* from{
+    left: 0;
+  }
+  to{
+    left: 300px;
+  } */
+
+  0%{
+    left: 0;
+    top: 0;
+  }
+  22%{
+    left: 300px;
+    top: 0;
+    background-color: rgb(255, 47, 0);
+  }
+  23%{
+    left: 300px;
+    top: 0;
+    background-color: rgb(255, 123, 0);
+  }
+  24%{
+    left: 300px;
+    top: 0;
+    background-color: rgb(255, 183, 0);
+  }
+  25%{
+    left: 300px;
+    top: 0;
+    background-color: yellow;
+  }
+  50%{
+    left: 300px;
+    top: 300px;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+  }
+  75%{
+    left: 0px;
+    top: 300px;
+  }
+100%{
+  left: 0;
+  top: 0;
+}
+}
+
+i{
+  font-size: 50px;
+  animation: icon-rotate 2s infinite linear;
+}
+@keyframes icon-rotate {
+  100%{
+    transform: rotate(360deg);
+  }
+}
