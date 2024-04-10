@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img {
+  filter: grayscale(1);
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+img:hover {
+  filter: grayscale(0);
+}
+
+.test-input {
+  width: 50%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #000;
+  input:focus-visible {
+    outline-offset: none;
+    outline: none;
+  }
+  input {
+    border: none;
+    width: 50%;
+    height: 60px;
+  }
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  margin-top: 20px;
+  overflow: hidden;
+  .photo {
+      transition: .5s;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/91V%2BD8XmhDL._AC_SL1500_.jpg");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    
+  }
+  &:hover{
+    .photo {
+        transform: scale(1.5);
+    }
+  }
+}
