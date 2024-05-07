@@ -1,0 +1,30 @@
+/* .info{
+    color: aquamarine;
+    background-color: black;
+}
+
+.colorfull{
+    color: yellowgreen;
+    background-color: brown;
+} */
+
+
+menu{
+    transform: translateX(-300px);
+    transition: .5s;
+    border-radius: 20px;
+    width: 20%;
+    height: 30vh;
+    background-color: black;
+    padding: 20px;
+    ul{
+        li{
+            color: aquamarine;
+        }
+    }
+}
+
+.open{
+    
+    transform: translateX(0px);
+}
