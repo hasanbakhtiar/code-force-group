@@ -9,7 +9,7 @@
 } */
 
 
-menu{
+/* menu{
     transform: translateX(-300px);
     transition: .5s;
     border-radius: 20px;
@@ -27,4 +27,47 @@ menu{
 .open{
     
     transform: translateX(0px);
+} */
+
+
+/* .accardion{
+    transition: .5s;
+    width: 40%;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #000;
+    .title{
+        border-radius: 10px;
+        width: 100%;
+        height: 50px;
+        background-color: #000;
+        color: aquamarine;
+    }
+    .desc{
+        width: 100%;
+        height: 250px;
+        overflow: scroll;
+    }
+    
+} */
+
+
+
+.red{
+    transition: .5s;
+    color: red;
+}
+
+
+.dark{
+    li{
+        color: antiquewhite;
+    }
+}
+
+.light{
+    li{
+        color: black;
+    }
 }
