@@ -1,10 +1,15 @@
 import { useState } from "react"
+import swal from "sweetalert";
 
 const Search = ({callkeyword}) => {
   const [keyword,setKeyword] = useState(null);
   const formSubmited  = e =>{
       e.preventDefault();
-      callkeyword(keyword);
+      if (!keyword) {
+        swal('Please, fill input','','warning')
+      }else{
+        callkeyword(keyword);
+      }
   }
   return (
     <div className="d-flex align-items-center justify-content-center my-5">
