@@ -1,0 +1,50 @@
+// ul{
+//     width: 50%;
+//     background-color: #eee;
+//     @include sirala();
+//     li{
+//         background-color: $mycolor;
+//     }
+// }
+
+
+// .main-box{
+    
+//     @include sirala();
+
+//     .test{
+//         width: 100%;
+//         height: 100%;
+//         background-color: red;
+//     }
+//     .box{
+//         width: 300px;
+//         height: 300px;
+//         background-color: grey;
+//         .mini-box{
+//             // @extend .test;
+//         }
+        
+//     }
+// }
+
+$mysize:15px;
+
+
+$base-color: #036;
+@if($mysize == 15px){
+    @for $i from 1 through 15 {
+        li:nth-child(3n + #{$i}) {
+          background-color: lighten($base-color, $i * 5%);
+        }
+      }
+}@else{
+    @for $i from 1 through 5 {
+        li:nth-child(3n + #{$i}) {
+          background-color: lighten($base-color, $i * 5%);
+        }
+      }
+}
+
+
+
