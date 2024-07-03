@@ -1,0 +1,30 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import Home from "./pages/Home"
+import About from "./pages/About"
+import Header from "./components/Header"
+import Products from "./pages/Products"
+import NotFoundPage from "./pages/NotFoundPage"
+import ProductDetails from "./pages/ProductDetails"
+import Basket from "./pages/Basket"
+
+
+
+const App = () => {
+    return (
+        <BrowserRouter>
+            <Header />
+            <div className="container">
+            <Routes>
+                <Route path="/" element={<Home />}></Route>
+                <Route path="/about" element={<About />}></Route>
+                <Route path="/products" element={<Products />}></Route>
+                <Route path="/products/:slug" element={<ProductDetails />}></Route>
+                <Route path="/cart" element={<Basket />}></Route>
+                <Route path="*" element={<NotFoundPage />}></Route>
+            </Routes>
+            </div>
+        </BrowserRouter>
+    )
+}
+
+export default App
