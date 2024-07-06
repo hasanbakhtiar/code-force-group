@@ -1,0 +1,15 @@
+.active {
+  background-color: orange !important;
+  border-radius: 10px;
+  color: #000 !important;
+}
+
+/* .dark *{
+  background-color: #000 !important ;
+  color: #fff !important;
+}
+
+.light *{
+  background-color: #fff !important ;
+  color: #000 !important;
+} */
