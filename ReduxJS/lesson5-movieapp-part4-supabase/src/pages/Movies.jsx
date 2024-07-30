@@ -1,11 +1,9 @@
-import { Button, Row } from "react-bootstrap"
+import {  Row } from "react-bootstrap"
 import SingleCard from "../components/SingleCard"
-import { useDispatch, useSelector } from "react-redux"
-import { movieAddAction } from "../tools/actions/movieAction";
+import {  useSelector } from "react-redux"
 
 const Movies = () => {
   const moviedata = useSelector(p=>p.movie);
-  const dispatch = useDispatch();
   return (
     <div>
         <h1 className="text-center my-5">Movie List</h1>
