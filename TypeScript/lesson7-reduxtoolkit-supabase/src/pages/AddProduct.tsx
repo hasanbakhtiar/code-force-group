@@ -35,7 +35,7 @@ const AddProduct: React.FC = () => {
         </div>
         <div className="mb-3">
           <label className="form-label">Price</label>
-          <input ref={priceRef} type="number" className="form-control" />
+          <input ref={priceRef} type="text" className="form-control" />
         </div>
         <div className="mb-3">
           <label className="form-label">Description</label>
